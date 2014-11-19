@@ -26,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 # The function cacheSolve returns the inverse matrix of
-# an informed matrix on the special "vector "of makeCacheMatrix.
+# an informed matrix on the special "vector" of makeCacheMatrix.
 # If a calculation is already executed the return is the 
 # cached result, otherwise the inverse matrix is calculated and
 # the result stored into the cache for future requests that may
